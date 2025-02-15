@@ -1,0 +1,118 @@
+<!DOCTYPE html>  	
+<html>
+  <head>
+    <title> Forms </title>
+  </head>
+  <body>
+    <h1 align="center"> PERSONAL DATA SHEET </h1>
+    <hr color="black">
+    <br>
+    <form>
+      <b><u>PERSONAL DATA:</u></b> <br> <br>
+      First Name: <input type="text" name="firstname" size="40" maxlength="50"><br><br>
+      Middle Name: <input type="text" name="middlename" size="35" maxlength="50"><br><br>
+      Surname: <input type="text" name="surname" size="40" maxlength="50"><br><br>
+      
+      Sex: <br>
+      <input type="radio" name="sex" value="male"> Male <br>
+      <input type="radio" name="sex" value="female"> Female <br>
+      <br>
+
+      Civil Status: <br>
+      <input type="radio" name="status" value="single"> Single <br>
+      <input type="radio" name="status" value="married"> Married <br>
+      <input type="radio" name="status" value="annulled"> Annulled <br>
+      <input type="radio" name="status" value="widowed"> Widowed <br>
+      <input type="radio" name="status" value="separated"> Separated <br>
+      <br>
+
+      Birth Date: <input type="text" name="birthdate" maxlength="50"><br><br>
+      Birth Place: <input type="text" name="birthplace" size="50" maxlength="50"><br><br>
+      Permanent Address: <input type="text" name="permanentaddress" size="50" maxlength="500"><br><br>
+
+      <b><u>FAMILY BACKGROUND:</u></b> <br> <br>
+      Father's Name: <input type="text" name="father" size="50" maxlength="50"><br><br>
+      Occupation: <input type="text" name="work" size="50" maxlength="50"><br><br>
+
+      <b><u>EDUCATIONAL BACKGROUND:</u></b> <br>
+      Check your Educational Attainment <br>
+      <input type="checkbox" name="elementary"> Elementary Graduate <br>
+      <input type="checkbox" name="highschool"> High School Graduate <br>
+      <input type="checkbox" name="college"> College Graduate <br>
+      <input type="checkbox" name="masteral"> Masteral Graduate <br>
+      <input type="checkbox" name="doctoral"> Doctoral Graduate <br><br>
+
+      College/University: 
+      <select name="college_university">
+        <option value="">-Select-</option>
+        <option value="ctu">Cebu Technological University</option>
+        <option value="cnu">Cebu Normal University</option>
+        <option value="llcc">Lapu-Lapu City College</option>
+        <option value="sjru">San Jose Recoletos University</option>
+        <option value="up">University of the Philippines</option>
+        <option value="ccc">Cordova City College</option>
+        <option value="uc_lm">University of Cebu - Lapu-Lapu and Mandaue</option>
+        <option value="uc_banilad">University of Cebu - Banilad</option>
+        <option value="uc_main">University of Cebu - Main</option>
+        <option value="scu">San Carlos University</option>
+      </select>
+
+      Year Graduated: 
+      <select name="college_year">
+        <option value="">-Select-</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+        <option>2009</option>
+        <option>2008</option>
+        <option>2007</option>
+        <option>2006</option>
+        <option>2005</option>
+      </select>
+      <br><br>
+
+      High School: 
+      <select name="highschool">
+        <option value="">-Select-</option>
+        <option value="mnhs">Marigondon National High School</option>
+        <option value="pnhs">Pusok National High School</option>
+        <option value="mnhs">Maribago National High School</option>
+        <option value="llchs">Lapu-Lapu Central High School</option>
+        <option value="dnhs">Datag National High School</option>
+        <option value="b1nhs">Babag 1 National High School</option>
+        <option value="b2nhs">Babag 2 National High School</option>
+        <option value="gnhs">Gun-ob National High School</option>
+      </select>
+
+      Year Graduated: 
+      <select name="highschool_year">
+        <option value="">-Select-</option>
+        <option>2005</option>
+        <option>2004</option>
+        <option>2003</option>
+        <option>2002</option>
+        <option>2001</option>
+        <option>2000</option>
+        <option>1999</option>
+        <option>1998</option>
+        <option>1997</option>
+        <option>1996</option>
+        <option>1995</option>
+      </select>
+      <br><br>
+
+      <b><u>CONTACT DETAILS:</u></b> <br><br>
+      Email Address: <input type="email" name="emailadd" size="40" maxlength="50"> <br>
+      Password: <input type="password" name="password" size="25" maxlength="50"> <br><br>
+
+      Phone Numbers: <br>
+      Cellphone: <input type="text" name="cell" size="30" maxlength="50">
+      Telephone: <input type="text" name="tel" size="30" maxlength="50"> <br><br>
+
+      <input type="submit" value="Send">
+      <input type="reset" value="Clear">
+    </form>
+  </body>
+</html>
